@@ -14,6 +14,11 @@ Repo ini cocok untuk:
 - eksperimen CLIP + Qdrant
 - belajar alur ingestion dan inference tanpa training model sendiri
 
+## Referensi
+- Tzelepi, M., & Mezaris, V. (2024). *LMM-Regularized CLIP Embeddings for Image Classification*.
+  Paper ini membahas penggunaan CLIP untuk tugas klasifikasi gambar dan peningkatan kualitas embedding agar lebih diskriminatif melalui regularisasi berbasis Large Multimodal Model (LMM). Referensi ini relevan sebagai landasan penggunaan embedding CLIP pada klasifikasi gambar, meskipun pendekatan pada proyek ini menggunakan retrieval-based classification dengan Qdrant, bukan fine-tuning classifier seperti pada paper tersebut.
+  Link: https://arxiv.org/abs/2412.11663
+
 ## Fitur
 
 - Ingestion otomatis dari folder dataset per label

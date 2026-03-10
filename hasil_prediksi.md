@@ -51,4 +51,8 @@ Pastikan folder `test/` berisi subfolder `cats/` dan `dogs/` dengan gambar.
 ```
 ...output terminal seperti di atas...
 ```
-https://arxiv.org/pdf/2412.11663 
+
+## Referensi
+- Tzelepi, M., & Mezaris, V. (2024). *LMM-Regularized CLIP Embeddings for Image Classification*.
+  Paper ini membahas penggunaan CLIP untuk tugas klasifikasi gambar dan peningkatan kualitas embedding agar lebih diskriminatif melalui regularisasi berbasis Large Multimodal Model (LMM). Referensi ini relevan sebagai landasan penggunaan embedding CLIP pada klasifikasi gambar, meskipun pendekatan pada proyek ini menggunakan retrieval-based classification dengan Qdrant, bukan fine-tuning classifier seperti pada paper tersebut.
+  Link: https://arxiv.org/abs/2412.11663
