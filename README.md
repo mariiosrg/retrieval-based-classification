@@ -1,4 +1,4 @@
-# Project RAG Klasifikasi Gambar
+# Project retrieval-based classification
 
 Project ini mendemonstrasikan klasifikasi gambar sederhana berbasis embedding multimodal dan vector database. Gambar pada folder train diubah menjadi embedding menggunakan model CLIP, disimpan ke Qdrant, lalu gambar pada folder test diklasifikasikan dengan mencari embedding terdekat.
 
